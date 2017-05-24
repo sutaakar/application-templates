@@ -261,6 +261,56 @@
             "kind": "ImageStream",
             "apiVersion": "v1",
             "metadata": {
+                "annotations": {
+                    "openshift.io/image.insecureRepository": "true"
+                },
+                "name": "jboss-bpmsuite70-businesscentral-openshift"
+            },
+            "spec": {
+                "dockerImageRepository": "ce-os-registry.usersys.redhat.com:5000/dward/bpmsuite70-businesscentral-openshift",
+                "tags": [
+                    {
+                        "name": "1.0",
+                        "annotations": {
+                            "description": "Red Hat JBoss BPM Suite 7.0 Business Central images.",
+                            "iconClass": "icon-jboss",
+                            "tags": "bpmsuite,xpaas",
+                            "supports":"bpmsuite:7.0,xpaas:1.4",
+                            "version": "1.0"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "ImageStream",
+            "apiVersion": "v1",
+            "metadata": {
+                "annotations": {
+                    "openshift.io/image.insecureRepository": "true"
+                },
+                "name": "jboss-bpmsuite70-executionserver-openshift"
+            },
+            "spec": {
+                "dockerImageRepository": "ce-os-registry.usersys.redhat.com:5000/dward/bpmsuite70-executionserver-openshift",
+                "tags": [
+                    {
+                        "name": "1.0",
+                        "annotations": {
+                            "description": "Red Hat JBoss BPM Suite 7.0 Execution Server images.",
+                            "iconClass": "icon-jboss",
+                            "tags": "bpmsuite,xpaas",
+                            "supports":"bpmsuite:7.0,xpaas:1.4",
+                            "version": "1.0"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "ImageStream",
+            "apiVersion": "v1",
+            "metadata": {
                 "name": "jboss-datagrid65-openshift"
             },
             "spec": {
