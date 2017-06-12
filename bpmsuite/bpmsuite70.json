@@ -503,14 +503,6 @@
                                         "value": "${KIE_MBEANS}"
                                     },
                                     {
-                                        "name": "KIE_SERVER_CONTROLLER_PWD",
-                                        "value": "${KIE_SERVER_CONTROLLER_PWD}"
-                                    },
-                                    {
-                                        "name": "KIE_SERVER_CONTROLLER_USER",
-                                        "value": "${KIE_SERVER_CONTROLLER_USER}"
-                                    },
-                                    {
                                         "name": "KIE_SERVER_PWD",
                                         "value": "${KIE_SERVER_PWD}"
                                     },
